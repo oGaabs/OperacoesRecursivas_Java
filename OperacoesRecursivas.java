@@ -15,9 +15,11 @@ public class OperacoesRecursivas
     /* Faça uma função de nome saoDiferentes que, recebendo como parâmetro dois números
     inteiros, resulta true, caso o primeiro deles seja diferente do segundo, ou false, caso
     contrário. Esta função não será recursiva, porém pode ser útil para os exercícios abaixo.*/
-    public static boolean saoDiferentes(int A, int B){
-        return A != B;
-    } // Finalizado
+    public static boolean saoDiferentes(int A, int B){ // Finalizado
+        if (A == B)
+            return false;
+        return true;
+    }
 
     /* Faça uma função de nome ehNegativo que, recebendo como parâmetro um único número
     inteiro, resulta true, caso o mesmo seja negativo, ou false, caso contrário.*/
