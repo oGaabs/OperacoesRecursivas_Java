@@ -1,5 +1,17 @@
 public class OperacoesRecursivas
 {
+    /* Para a realização destes exercícios, fica proibido:
+    (a) declarar variáveis,
+    (b) fazer uso de operadores aritméticos (+, -, *, / e %),
+    (c) fazer uso dos operadores relacionais (!=, <, <=, > e >=),
+    (d) fazer uso de operadores lógicos (!, && e ||),
+    (e) fazer uso dos comandos de seleção (if com else e switch),
+    (f) fazer uso de comandos repetitivos (while, do-while e for),
+    (g) fazer uso de qualquer função de biblioteca.
+    Importante lembrar que os números com os quais vocês trabalharão são inteiros, logo,
+    podem ser positivos ou negativos.
+    Dica: use ==, ++, --, if sem else, return, recursão e as funções feitas a partir dos exercícios
+    de número de ordem anterior. */
     /* Faça uma função de nome saoDiferentes que, recebendo como parâmetro dois números
     inteiros, resulta true, caso o primeiro deles seja diferente do segundo, ou false, caso
     contrário. Esta função não será recursiva, porém pode ser útil para os exercícios abaixo.*/
